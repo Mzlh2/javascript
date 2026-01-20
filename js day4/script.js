@@ -15,3 +15,5 @@ let fruits = ["apple", "banana", "cherry"];
 let resfruits = fruits.splice(0, 2, "orange", "grape");
 //console.log(resfruits);
 console.log(fruits);
+
+//String methods
