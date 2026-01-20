@@ -15,12 +15,12 @@ let newLength = fruits.unshift("apple");
 console.log(newLength);
 console.log(fruits);*/
 //q2
-let fruits = ["apple", "banana", "cherry"];
+/*let fruits = ["apple", "banana", "cherry"];
 let reversed = [];
 while (fruits.length > 0) {
   reversed.push(fruits.pop());
 }
-console.log(reversed);
+console.log(reversed);*/
 /*let arr=[1,2,3,4,5]
 let res=[]
 while(arr.length>0){
@@ -37,7 +37,7 @@ while(arr.length>0){
     }
 }
 console.log(posint);*/
-function palindrome() {
+/*function palindrome() {
   let arr = [1, 2, 3, 9, 1];
   let temp = [];
   let original = [];
@@ -55,4 +55,23 @@ function palindrome() {
   }
   return "palindrome";
 }
-console.log(palindrome());
+console.log(palindrome());*/
+
+/*let arr=[2,4,3,7,0,5,8];
+let even=[];
+let odd=[];
+while(arr.length>0){
+    let val=arr.shift();
+    if(val%2==0){
+        even.push(val);
+    }
+    else if(val%2!=0){
+        odd.push(val);
+    }
+}
+console.log(even)
+console.log(odd)*/
+
+let arr=[2,0,4,0,3,7,0,5,8,9,0];
+
+
