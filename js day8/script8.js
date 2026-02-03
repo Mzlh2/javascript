@@ -8,7 +8,8 @@ heading.textContent="Hello India";
 
 const subHeading = document.getElementsByClassName("sub-heading");
 console.log(subHeading);
-for (let i = 0; i < subHeading.length; i++) {
+for (let i = 0; i < subHeading.length; i++) {  //for loop because indexing, because of array.
     subHeading[i].style.color = "blue";
 // subHeading[0].style.color = "blue";
 }
+
